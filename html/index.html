@@ -1,0 +1,50 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>user form</title>
+    </head>
+    <body>
+        <div>
+            <form method="post" action="#">
+                <h2>REGISTRATION FORM</h2>
+                <label for="Name">First Name</label>
+                <input type="name" name="name" id="Name"> <br>
+                <label for="Lastname">Lastname</label>
+                <input type="text" name="lastname" id="Lastname"> <br>
+                <label for="Email">Email</label>
+                <input type="email" id="Email" name="Email"> <br>
+                <label for="phone">Phone number</label>
+                <input type="tel" name="phonemumber" id="phone"> <br>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address"> <br>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username"> <br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password"> <br>
+                <label>Gender</label>
+                <label for="Male">Male</label>
+                <input type="radio" name="male" id="Male" value="male" required>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female"  value="female" required> <br>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <optgroup>
+                        <option value="coutry"><strong>Select a country</strong> </option>
+                        <option value="nigeria">Nigeria</option>
+                        <option value="cameroon">Cameroon</option>
+                        <option value="ghana">Ghana</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="morroco">Morroco</option>
+                        <option value="south africa">South Africa</option>
+                        <option value="tunisia">Tunisia </option>
+                    </optgroup>
+                </select> <br>
+                <label for="agree">I hereby agree to the terms and conditions</label>
+                <input type="checkbox" name="agree" id="agree"> <br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
